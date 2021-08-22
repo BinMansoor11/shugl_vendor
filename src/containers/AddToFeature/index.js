@@ -192,7 +192,7 @@ export default function AddToFeature({ navigation }) {
 
 
                         <Button
-                            onPress={() => navigation.navigate('BankDetail')}
+                            onPress={() => navigation.navigate('ReserveSlot')}
                             height={Metrics.ratio(53)}
                             width={Metrics.screenWidth * 0.8}
                             fontSize={Metrics.ratio(16)}

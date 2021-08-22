@@ -50,7 +50,7 @@ export function Comps() {
 }
 
 
-export default function BankDetail() {
+export default function BankDetail({ navigation }) {
     return (
         <View style={{ flex: 1, backgroundColor: '#fff' }}>
             <Header heading='Bank Detail' />
@@ -135,7 +135,7 @@ export default function BankDetail() {
             </View>
             <View style={{ height: Metrics.screenHeight * 0.3, justifyContent: 'center' }}>
                 <Button
-                    onPress={() => null}
+                    onPress={() => navigation.navigate('AddToFeature')}
                     height={Metrics.ratio(40)}
                     width={Metrics.screenWidth * 0.8}
                     fontSize={Metrics.ratio(25)}

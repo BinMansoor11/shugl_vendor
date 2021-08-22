@@ -253,7 +253,7 @@ export default function ReserveSlot({ navigation }) {
 
                     <View style={{}}>
                         <Button
-                            onPress={() => null}
+                            onPress={() => navigation.navigate('UnReserveSlot')}
                             height={Metrics.ratio(45)}
                             width={Metrics.screenWidth * 0.9}
                             fontSize={Metrics.ratio(28)}

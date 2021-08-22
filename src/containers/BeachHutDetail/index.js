@@ -376,7 +376,7 @@ export default function BeachHutDetail({ navigation }) {
 
 
                 <Button
-                    onPress={() => navigation.navigate('Dashboard')}
+                    onPress={() => navigation.navigate('Categories')}
                     height={Metrics.ratio(40)}
                     width={Metrics.screenWidth * 0.9}
                     // fontWeight='bold'

@@ -253,11 +253,11 @@ export default function ReserveSlot({ navigation }) {
 
                     <View style={{}}>
                         <Button
-                            onPress={() => null}
+                            onPress={() => navigation.navigate('BeachHutDetail')}
                             height={Metrics.ratio(45)}
                             width={Metrics.screenWidth * 0.9}
                             fontSize={Metrics.ratio(28)}
-                            title='Reserve Slot'
+                            title='Unreserve Slot'
                             style={{ alignSelf: 'center', }}
                             radius={Metrics.ratio(55)}
                         />

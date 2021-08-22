@@ -7,6 +7,7 @@ import ReserveSlot from './ReserveSlot'
 import UnReserveSlot from './UnReserveSlot'
 import AddToFeature from './AddToFeature'
 import BeachHutDetail from './BeachHutDetail'
+import Categories from './Categories'
 
 export {
     Login,
@@ -18,4 +19,5 @@ export {
     UnReserveSlot,
     AddToFeature,
     BeachHutDetail,
+    Categories,
 }
