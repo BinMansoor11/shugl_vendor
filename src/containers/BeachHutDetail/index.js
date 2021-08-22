@@ -56,7 +56,7 @@ export default function BeachHutDetail({ navigation }) {
             <Header heading='Beach Hut Details' />
             <ScrollView>
                 <Button
-                    onPress={() => navigation.navigate('Dashboard')}
+                    // onPress={() => navigation.navigate('Dashboard')}
                     height={Metrics.ratio(40)}
                     width={Metrics.screenWidth * 0.6}
                     fontWeight='bold'
